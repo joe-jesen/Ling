@@ -1,5 +1,4 @@
 import time
-
 def focus_timer(minutes):
     seconds = minutes * 60
     while seconds > 0:
@@ -8,4 +7,4 @@ def focus_timer(minutes):
         seconds -= 1
     print("Time's up! Stay focused!")
 
-focus_timer(55)
+focus_timer(105)
